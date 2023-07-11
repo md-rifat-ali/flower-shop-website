@@ -190,3 +190,36 @@
   justify-content: center;
   gap: 24px;
 }
+
+/* contact styles here */
+.contact {
+  margin: 0 240px 128px 240px;
+  background: url("../images/contact-flower.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 121px 287px;
+}
+
+.contact-description {
+  margin: 16px 0 48px;
+}
+
+.contact-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#email {
+  margin-right: 16px;
+  padding: 22px;
+  width: 700px;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+input[type="button"] {
+  padding: 19px 31px;
+}
