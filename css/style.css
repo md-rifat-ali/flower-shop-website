@@ -191,6 +191,38 @@
   gap: 24px;
 }
 
+/* team styles here */
+.our-team {
+  margin-bottom: 128px;
+  padding: 0 240px;
+}
+
+.team-member {
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.single-member {
+  background-color: rgba(167, 33, 98, 0.15);
+  padding: 45px 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.member-name {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #272727;
+}
+
+.member-description {
+  margin-top: 16px;
+}
+
 /* contact styles here */
 .contact {
   margin: 0 240px 128px 240px;
@@ -222,4 +254,25 @@
 
 input[type="button"] {
   padding: 19px 31px;
+}
+
+/* footer styles here */
+footer {
+  background-color: #111010;
+  padding: 128px 0;
+}
+
+.footer-title,
+.footer-description {
+  color: #ffffff;
+}
+
+.footer-title > span {
+  font-size: 48px;
+  color: #e55473;
+}
+
+.copyright {
+  margin-top: 32px;
+  color: rgba(255, 255, 255, 0.4);
 }
