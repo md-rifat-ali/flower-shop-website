@@ -54,7 +54,7 @@
 
 /* feature styles here */
 .feature {
-  margin: 178px auto 128px;
+  margin: 178px auto 0;
 }
 
 .feature-text {
@@ -115,4 +115,30 @@
   line-height: 35px;
   text-decoration-line: underline;
   margin-top: 32px;
+  margin-bottom: 128px;
+}
+
+/* services styles here */
+.services {
+  margin: 240px 240px 0;
+  border-radius: 8px;
+  background-color: rgba(39, 39, 39, 0.05);
+  padding: 87px 175px;
+}
+
+.all-services {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 0 auto;
+}
+
+.service-description {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+  margin-top: 24px;
 }
