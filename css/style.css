@@ -142,3 +142,37 @@
   line-height: 35px;
   margin-top: 24px;
 }
+
+/* offer styles here */
+.offer {
+  margin: 128px 0;
+  padding: 100px 429px 100px 395px;
+  border-radius: 8px;
+  background-color: rgba(229, 84, 115, 0.05);
+}
+
+.offer-deal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 186px;
+  text-align: center;
+}
+
+.offer-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.offer-title > span {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: normal;
+  color: #e55473;
+}
+
+.offer-description {
+  margin: 24px 0 32px;
+}
