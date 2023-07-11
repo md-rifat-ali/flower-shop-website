@@ -57,13 +57,13 @@
   margin: 178px auto 0;
 }
 
-.feature-text {
+.common-text {
   width: 594px;
   text-align: center;
   margin: 0 auto;
 }
 
-.feature-title {
+.common-title {
   color: #272727;
   font-size: 40px;
   font-weight: 800;
@@ -175,4 +175,18 @@
 
 .offer-description {
   margin: 24px 0 32px;
+}
+
+/* instagram styles here */
+.instagram {
+  margin-bottom: 128px;
+  padding: 0 240px;
+}
+
+.instagram-img {
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
 }
