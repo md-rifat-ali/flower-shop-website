@@ -1,0 +1,55 @@
+/* common styles here */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+/* header styles here */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 97px;
+    padding: 50px 240px 0;
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.banner-text{
+    width: 50%;
+}
+
+.banner-title{
+color: #272727;
+font-size: 80px;
+font-weight: 800;
+line-height: normal;
+
+}
+
+.banner-description{
+    margin: 32px 0;
+}
+
+.btn-primary{
+padding: 20px 43px;
+border-radius: 8px;
+background: #E55473;
+color: #ffffff;
+border: none;
+}
+
+.btn-primary:hover{
+    background-color: #ffffff;
+    color: #272727;
+    border: 1px solid #272727;
+}
+
+.banner-img{
+    width: 635px;
+}
+
